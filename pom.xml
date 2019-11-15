@@ -6,7 +6,7 @@
     <artifactId>monolith</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>Monolith</name>
+    <name>Monolith</name> 
     <description>Example app for OpenShift Webinar demo</description>
 
     <url>http://jboss.org/jbossas</url>
