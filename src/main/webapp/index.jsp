@@ -123,7 +123,7 @@
 	try {
 		java.util.Properties props = new java.util.Properties(); 
 		props.load(new java.io.FileInputStream(new java.io.File("/opt/eap/standalone/configuration/props/monolith.properties")));
-		message = props.getProperty("source");
+		message = props.getProperty("message");
 		out.write("<p>" + message + "</p>");
 	} catch(Exception e) {
 		out.write("<p>No message to display</p>");
